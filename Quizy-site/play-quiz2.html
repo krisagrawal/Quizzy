@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/play-quiz2.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/quizylogo.png">
+    <title>Play Quiz</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            <img src="assets/images/quizylogo.png" alt="site-logo">
+            <span>Quizy</span>
+        </a>
+        <div class="menu">
+            <div class="teacher">
+                <img src="assets/images/play-quiz-icon.png" alt="play-quiz-icon">
+                <span class="menu-span">Computer Network/IPv6 Quiz</span>               
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="container">
+            <div class="text">Question 2</div>
+            <div class="box">
+                <div class="question">What is the security protocol used in IPv6 called?</div>
+                <div class="option">
+                   <div class="button01"><button class="optionClick" id="wrong1" onclick="wrong1()">SSL</button></div>
+                   <div class="button02"><button class="optionClick" id="wrong2" onclick="wrong2()">HTTPS</button></div>
+                   <div class="button03"><button class="optionClick" id="right" onclick="right()">IPSEC</button></div>
+                   <div class="button04"><button class="optionClick" id="wrong3" onclick="wrong3()">ARP</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="button2" onclick="tryAgain()" id="tryagain">Try again</button>
+            <a class="button1 button" href="play-quiz3.html" id="goto">Skip to next<img src="assets/images/arrow-icon3.png" alt="arrow-icon"></a>
+        </div>
+    </div>
+    <script src="assets/js/play-quiz.js"></script>
+</body>
+</html>

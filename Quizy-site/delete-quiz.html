@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/delete-quiz.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/quizylogo.png">
+    <script src="assets/js/script.js"></script>
+    <title>Delete a quiz</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            <img src="assets/images/quizylogo.png" alt="site-logo">
+            <span>Quizy</span>
+        </a>
+        <div class="menu">
+            <div class="teacher">
+                <img src="assets/images/teacher-icon.png" alt="teacher-icon">
+                <span class="menu-span">Dashboard/Teacher</span>               
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="container" id="container">
+            <div class="text">Your Prizes</div>
+            <div class="box" id="box1">
+                <div class="name">Computer Network/IPv6 Quiz</div>
+                <div class="attempt">Atttempted : 45</div>
+                <div class="highest">Highest : 96</div>
+                <div class="icon"><a href="#" onclick="deleteQuiz()"><img src="assets/images/delete-icon.png" alt="delete-icon"></a></div>
+            </div>
+            <div class="box">
+                <div class="name">C Programming/Array Quiz</div>
+                <div class="attempt">Atttempted : 23 </div>
+                <div class="highest">Highest : 99</div>
+                <div class="icon"><img src="assets/images/delete-icon.png" alt="delete-icon"></div>
+            </div>
+            <div class="box">
+                <div class="name">Internet Fundamentals/Web Quiz</div>
+                <div class="attempt">Atttempted : 40 </div>
+                <div class="highest">Highest : 92</div>
+                <div class="icon"><img src="assets/images/delete-icon.png" alt="delete-icon"></div>
+            </div>
+            <div class="box">
+                <div class="name">Mathematics/Calculus Quiz</div>
+                <div class="attempt">Atttempted : 18 </div>
+                <div class="highest">Highest : 95</div>
+                <div class="icon"><img src="assets/images/delete-icon.png" alt="delete-icon"></div>
+            </div>
+        </div>
+        <div class="buttons" id="buttons">
+            <a class="button1 button" href="add-quiz.html">Create New</a>
+            <a class="button2 button" href="teacher-dashboard.html">Undo Changes</a>
+        </div>
+    </div>
+</body>
+</html>
