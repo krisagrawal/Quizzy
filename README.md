@@ -1,0 +1,2 @@
+# Quizzy
+Static Quiz Website
